@@ -4,10 +4,10 @@
         "niceName": "Tofu Utility"
     },
     "servers": [
-        "https://raw.githubusercontent.com/sjieh/tofu-util/master/"
+        "https://raw.githubusercontent.com/sjieh/tofu-util/main/"
     ],
     "author": "haruruu",
     "description": "Contains various quality of life enhancements for use in-house.",
     "disableAutoUpdate": false,
-    "version": "0.4"
+    "version": "0.3"
 }
