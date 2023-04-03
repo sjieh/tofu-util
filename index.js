@@ -6,7 +6,7 @@ module.exports = function(mod) {
 	let located = 0
 	let tp_ctr = 0
 
-	mod.warn("steve");
+	mod.warn("dave");
 
 	mod.dispatch.addDefinition("C_REQUEST_REPUTATION_STORE_TELEPORT", 2, path.join(__dirname, "C_REQUEST_REPUTATION_STORE_TELEPORT.2.def"))
 	mod.dispatch.addDefinition("C_START_SKILL", 7, path.join(__dirname, "C_START_SKILL.7.def"))
