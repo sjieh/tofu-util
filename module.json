@@ -1,0 +1,10 @@
+{
+    "name": "tofu-util",
+    "options": {
+        "niceName": "Tofu Utility"
+    },
+    "author": "haruruu",
+    "description": "Contains various quality of life enhancements for use in-house.",
+    "disableAutoUpdate": true,
+    "version": "0.3"
+}
