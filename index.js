@@ -44,6 +44,12 @@ module.exports = function(mod) {
 		}
 	})
 
+	cmd.add("home", {
+		"$none": () => {
+			home()
+		}
+	})
+
 	function home() {
 		cmd.message("Teleporting to Highwatch!")
 		mod.send("C_REQUEST_REPUTATION_STORE_TELEPORT", 2, {
@@ -67,13 +73,6 @@ module.exports = function(mod) {
 			slot: 3,
 			type: 1,
 			id: 207546
-		})
-		// Canephora
-		mod.send("C_USE_PREMIUM_SLOT", 1, {
-			set: 333,
-			slot: 4,
-			type: 1,
-			id: 150543
 		})
 		// Moon Lotus Aura
 		mod.send("C_START_SKILL", 7, {
