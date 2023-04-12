@@ -1,0 +1,13 @@
+name: Update Manifest
+
+on: [push]
+
+jobs:
+  update_manifest:
+    runs-on: ubuntu-latest
+    permissions: write-all
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+    - name: Generate Manifest
+      uses: tera-toolbox-ci/manifest@v1
